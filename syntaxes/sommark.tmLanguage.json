@@ -1,0 +1,137 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SomMark",
+	"scopeName": "source.sommark",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#blocks"
+		},
+		{
+			"include": "#inline"
+		},
+		{
+			"include": "#atblocks"
+		},
+		{
+			"include": "#escapes"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.number-sign.sommark",
+					"match": "#.*$"
+				}
+			]
+		},
+		"blocks": {
+			"patterns": [
+				{
+					"name": "keyword.block.sommark",
+					"begin": "\\[([A-Za-z][A-Za-z]*)",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.block.sommark"
+						}
+					},
+					"end": "\\]",
+					"patterns": [
+						{
+							"name": "string.quoted.double.sommark",
+							"match": "\"[^\"]+\""
+						},
+						{
+							"name": "constant.numeric.sommark",
+							"match": "\\b\\d+\\b"
+						},
+						{
+							"name": "string.unquoted.sommark",
+							"match": "\\b\\w+\\b"
+						},
+						{
+							"name": "keyword.operator.assignment.sommark",
+							"match": "="
+						}
+					]
+				},
+				{
+					"name": "keyword.block.end.sommark",
+					"match": "\\[end\\]"
+				}
+			]
+		},
+		"inline": {
+			"patterns": [
+				{
+					"name": "meta.inline.sommark",
+					"match": "\\(([^\\)]+)\\)\\s*->\\s*\\((\\w+)(?:[:]{1}|->)?([^\\)\\\"]*(?:\"[^\"]*\")?)?\\)",
+					"captures": {
+						"2": {
+							"name": "variable.parameter.inline-type.sommark"
+						},
+						"3": {
+							"name": "string.arguments.inline.sommark"
+						}
+					}
+				}
+			]
+		},
+		"atblocks": {
+			"patterns": [
+				{
+					"begin": "@_([A-Za-z][A-Za-z]*)_@(:\\s*.*)?",
+					"beginCaptures": {
+						"0": {
+							"name": "keyword.atblock.sommark"
+						},
+						"2": {
+							"name": "meta.arguments.sommark",
+							"patterns": [
+								{
+									"name": "string.quoted.double.sommark",
+									"match": "\"[^\"]+\""
+								},
+								{
+									"name": "constant.numeric.sommark",
+									"match": "\\b\\d+\\b"
+								},
+								{
+									"name": "string.unquoted.sommark",
+									"match": "\\b\\w+\\b"
+								},
+								{
+									"name": "keyword.operator.assignment.sommark",
+									"match": "="
+								}
+							]
+						}
+					},
+					"end": "^@_end_@$",
+					"endCaptures": {
+						"0": {
+							"name": "keyword.atblock.end.sommark"
+						}
+					},
+					"patterns": [
+						{
+							"name": "meta.text.sommark",
+							"match": ".+"
+						}
+					]
+				}
+			]
+		},
+		"escapes": {
+			"patterns": [
+				{
+					"name": "string.escaped.sommark",
+					"match": "`[^`]+`"
+				}
+			]
+		}
+	}
+}
