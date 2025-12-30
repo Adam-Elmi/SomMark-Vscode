@@ -9,9 +9,8 @@ Syntax highlighting and basic language support for SomMark, a minimal, extensibl
 ## Features
 
 * Syntax highlighting for **blocks, at-blocks, inline statements, comments, and escapes**
-* Supports **arguments**, **strings**, and **numbers** with clear visual distinction
-* **Extensible**: define custom identifiers, inline statements, and at-blocks
-* VS Code support with:
+
+* **VS Code support with**:
 
   * `.smark` file recognition
   * Auto-closing brackets and comments
