@@ -1,7 +1,6 @@
-# SomMark
+# SomMark-Vscode
 
-SomMark is a **minimal, extensible markup language** designed for documentation.
-It’s faster to write than MDX or Markdown for structured docs, while remaining **readable and maintainable**.
+Syntax highlighting and basic language support for SomMark, a minimal, extensible markup language for documentation.
 
 ![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/screenshot.png)
 
