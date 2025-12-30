@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "smark": {
+      "iconPath": "./sommark-icon.svg"
+    }
+  },
+  "fileExtensions": {
+    "smark": "smark"
+  }
+}

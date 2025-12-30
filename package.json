@@ -3,7 +3,7 @@
   "displayName": "SomMark",
   "description": "Syntax highlighting and basic language support for SomMark, a minimal, extensible markup language for documentation.",
   "publisher": "AdamElmi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -30,7 +30,14 @@
         "scopeName": "source.sommark",
         "path": "./syntaxes/sommark.tmLanguage.json"
       }
-    ]
+    ],
+     "iconThemes": [
+    {
+      "id": "sommark-icons",
+      "label": "SomMark Icons",
+      "path": "./icons/sommark-icon-theme.json"
+    }
+  ]
   },
   "repository": {
     "url": "https://github.com/Adam-Elmi/SomMark-Vscode"

@@ -65,14 +65,9 @@ Future releases may include configurable snippets, themes, and formatting option
 
 ## Release Notes
 
-### 0.0.4
+### 0.0.5
 
-* Syntax highlighting failed when @_end_@ was indented
-
-* Cause: overly strict regex anchoring
-
-* Fix: allow leading whitespace
-
+* File icon support added
 ---
 
 ## Resources
