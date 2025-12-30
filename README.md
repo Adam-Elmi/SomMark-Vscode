@@ -66,9 +66,13 @@ Future releases may include configurable snippets, themes, and formatting option
 
 ## Release Notes
 
-### 0.0.3
+### 0.0.4
 
-* Syntax highlighting and snippets for blocks, at-blocks, inline statements, comments, and escapes
+* Syntax highlighting failed when @_end_@ was indented
+
+* Cause: overly strict regex anchoring
+
+* Fix: allow leading whitespace
 
 ---
 
