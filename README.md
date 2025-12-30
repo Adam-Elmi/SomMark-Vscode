@@ -72,6 +72,7 @@ Future releases may include configurable snippets, themes, and formatting option
 
 ## Resources
 
-* [SomMark Core Repo](https://github.com/Adam-Elmi/SomMark)
+* [SomMark Vscode repo](https://github.com/Adam-Elmi/SomMark-Vscode)
+* [SomMark Language repo](https://github.com/Adam-Elmi/SomMark)
 
 ---
