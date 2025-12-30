@@ -21,7 +21,11 @@
         "extensions": [
           ".smark"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/sommark-icon.svg",
+          "dark": "./icons/sommark-icon.svg"
+        }
       }
     ],
     "grammars": [
@@ -30,14 +34,7 @@
         "scopeName": "source.sommark",
         "path": "./syntaxes/sommark.tmLanguage.json"
       }
-    ],
-     "iconThemes": [
-    {
-      "id": "sommark-icons",
-      "label": "SomMark Icons",
-      "path": "./icons/sommark-icon-theme.json"
-    }
-  ]
+    ]
   },
   "repository": {
     "url": "https://github.com/Adam-Elmi/SomMark-Vscode"
