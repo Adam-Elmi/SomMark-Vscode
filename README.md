@@ -22,13 +22,13 @@ Syntax highlighting and basic language support for SomMark, a minimal, extensibl
 
 ### Screenshot Examples
 
-**Block**
+**Block Statement**
 
-```smark
-[Section = Introduction, 1]
-This is a block body.
-[end]
-```
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/block.png)
+
+**At-Block Statement**
+
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/atblock.png)
 
 **Inline Statement**
 
@@ -40,7 +40,7 @@ This is a block body.
 
 **Comment**
 
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/commments.png)
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/comments.png)
 
 
 ---
