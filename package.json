@@ -10,16 +10,26 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "sommark",
-      "aliases": ["SomMark", "sommark"],
-      "extensions": [".smark"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "sommark",
-      "scopeName": "source.sommark",
-      "path": "./syntaxes/sommark.tmLanguage.json"
-    }]
-  }
+    "languages": [
+      {
+        "id": "sommark",
+        "aliases": [
+          "SomMark",
+          "sommark"
+        ],
+        "extensions": [
+          ".smark"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sommark",
+        "scopeName": "source.sommark",
+        "path": "./syntaxes/sommark.tmLanguage.json"
+      }
+    ]
+  },
+  "icon": "icons/sommark.png"
 }
