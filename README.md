@@ -20,7 +20,7 @@ Syntax highlighting and basic language support for SomMark, a minimal, extensibl
 
 ---
 
-### Example Syntax
+### Screenshot Examples
 
 **Block**
 
@@ -32,32 +32,16 @@ This is a block body.
 
 **Inline Statement**
 
-```smark
-(Hello)->(bold)
-(Hello)->(color:red)
-(Adam's website)->(link:https://Adam-Elmi.dev "Adam's Site")
-```
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/inline.png)
 
-**At Block**
+**Nested Blocks**
 
-```smark
-@_table_@: month, revenue, expenses
-- January, 1200, 400
-- February, 1400, 600
-@_end_@
-```
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/nested.png)
 
 **Comment**
 
-```smark
-# This is a comment
-```
+![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/commments.png)
 
-**Escape**
-
-```smark
-`[This is not a block]`
-```
 
 ---
 
@@ -82,9 +66,8 @@ Future releases may include configurable snippets, themes, and formatting option
 
 ## Release Notes
 
-### 0.1.0
+### 0.0.3
 
-* Initial release of SomMark VS Code extension
 * Syntax highlighting and snippets for blocks, at-blocks, inline statements, comments, and escapes
 
 ---
