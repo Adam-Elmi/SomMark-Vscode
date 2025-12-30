@@ -65,7 +65,7 @@ Future releases may include configurable snippets, themes, and formatting option
 
 ## Release Notes
 
-### 0.0.5
+### 0.0.6
 
 * File icon support added
 ---
