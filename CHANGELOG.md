@@ -2,8 +2,15 @@
 
 All notable changes to the "sommark" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [2.0.0] - 2026-02-02
 
-## [Unreleased]
+### Added
+- **Semantic Highlighting**: Implemented a full semantic tokens provider for 100% accurate syntax highlighting.
+- **Official Lexer Integration**: Integrated the official `sommark` NPM package to power the highlighting engine.
 
-- Initial release
+### Verified
+- **High Accuracy**: Syntax highlighting now perfectly matches the compiler's tokenization.
+- **Theme Support**: Improved compatibility with VS Code themes.
+
+### Removed
+- **TextMate Grammars**: Completely removed legacy regex-based highlighting (`syntaxes/`).
