@@ -4,7 +4,7 @@
   "description": "Syntax highlighting and basic language support for SomMark, a minimal, extensible markup language for documentation.",
   "publisher": "AdamElmi",
   "version": "2.0.0",
-  "main": "./out/extension.js",
+  "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
