@@ -1,78 +1,29 @@
-# SomMark-Vscode
+# SomMark VSCode
 
-Syntax highlighting and basic language support for SomMark, a minimal, extensible markup language for documentation.
+### Version 2.0.0
 
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/screenshot.png)
+The official VS Code extension for the SomMark markup language.
 
----
+![Showcase](show.png)
+
+## What's New in v2.0.0
+
+We have completely rebuilt our syntax highlighting engine!
+
+- **Shift to Semantic Highlighting**: We have migrated from traditional TextMate grammars (Regex) to **Semantic Highlighting**. This ensures 100% accuracy and consistency with the SomMark compiler.
+- **Powered by Official Lexer**: The extension now uses the official `sommark` NPM package for tokenization.
 
 ## Features
 
-* Syntax highlighting for **blocks, at-blocks, inline statements, comments, and escapes**
+- Accurate syntax highlighting for Blocks, At-Blocks, and Inline statements.
+- Support for SomMark comments and escape sequences.
+- Clean and modern integration with VS Code themes.
 
-* **VS Code support with**:
+## Usage
 
-  * `.smark` file recognition
-  * Auto-closing brackets and comments
-  * Snippets for common constructs
-* Works in **themes** without losing syntax visibility
-
----
-
-### Screenshot Examples
-
-**Block Statement**
-
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/block.png)
-
-**At-Block Statement**
-
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/atblock.png)
-
-**Inline Statement**
-
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/inline.png)
-
-**Nested Blocks**
-
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/nested.png)
-
-**Comment**
-
-![Screenshot](https://raw.githubusercontent.com/Adam-Elmi/SomMark-Vscode/master/comments.png)
-
-
----
-
-## Requirements
-
-No external dependencies. Works on **VS Code ≥1.80.0**.
-
----
-
-## Extension Settings
-
-Currently, SomMark has no custom VS Code settings.
-Future releases may include configurable snippets, themes, and formatting options.
-
----
-
-## Known Issues
-
-* Extension is **experimental**; syntax may evolve
-
----
-
-## Release Notes
-
-### 0.0.7
-
-* Added Auto-comments support
----
+Simply open any `.smark` file, and the extension will automatically activate.
 
 ## Resources
 
-* [SomMark Vscode repo](https://github.com/Adam-Elmi/SomMark-Vscode)
-* [SomMark Language repo](https://github.com/Adam-Elmi/SomMark)
-
----
+- [SomMark Language Repo](https://github.com/Adam-Elmi/SomMark)
+- [SomMark VSCode Repo](https://github.com/Adam-Elmi/SomMark-Vscode)
