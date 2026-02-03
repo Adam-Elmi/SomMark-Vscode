@@ -1,17 +1,17 @@
 # SomMark VSCode
 
-### Version 2.0.0
+### Version 2.0.1
 
 The official VS Code extension for the SomMark markup language.
 
 ![Showcase](show.png)
 
-## What's New in v2.0.0
+## What's New in v2.0.1
 
-We have completely rebuilt our syntax highlighting engine!
+## What's New in v2.0.1
 
-- **Shift to Semantic Highlighting**: We have migrated from traditional TextMate grammars (Regex) to **Semantic Highlighting**. This ensures 100% accuracy and consistency with the SomMark compiler.
-- **Powered by Official Lexer**: The extension now uses the official `sommark` NPM package for tokenization.
+- **Fixed Activation Issue**: Resolved a critical bug preventing the extension from activating on some systems.
+- **Stability Improvements**: Aligned development dependencies for better stability.
 
 ## Features
 
