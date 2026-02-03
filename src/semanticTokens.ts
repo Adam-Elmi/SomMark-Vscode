@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
-// @ts-ignore
-import TOKEN_TYPES from './sommark-tokens/tokenTypes.js';
+
 
 const tokenTypes = ['function', 'keyword', 'parameter', 'string', 'variable', 'comment', 'operator'];
 const tokenModifiers = ['declaration', 'documentation'];
@@ -15,7 +14,7 @@ export class SomMarkSemanticTokensProvider implements vscode.DocumentSemanticTok
         if (token.isCancellationRequested) return builder.build();
 
         try {
-            const { lex } = await (new Function('return import("sommark")'))();
+            const { lex, TOKEN_TYPES } = await (new Function('return import("sommark")'))();
             const tokens = lex(text) || [];
 
             for (const t of tokens) {
