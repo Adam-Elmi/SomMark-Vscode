@@ -8,8 +8,6 @@ The official VS Code extension for the SomMark markup language.
 
 ## What's New in v2.0.1
 
-## What's New in v2.0.1
-
 - **Fixed Activation Issue**: Resolved a critical bug preventing the extension from activating on some systems.
 - **Stability Improvements**: Aligned development dependencies for better stability.
 
