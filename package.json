@@ -12,11 +12,11 @@
   },
   "devDependencies": {
     "@types/node": "^16.x",
-    "@types/vscode": "^1.107.0",
+    "@types/vscode": "1.104.0",
     "typescript": "^4.5.5"
   },
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.104.0"
   },
   "categories": [
     "Programming Languages"
@@ -45,6 +45,6 @@
   },
   "icon": "icons/sommark.png",
   "dependencies": {
-    "sommark": "^2.0.0"
+    "sommark": "^2.0.2"
   }
 }
