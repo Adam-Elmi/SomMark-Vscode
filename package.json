@@ -45,6 +45,6 @@
   },
   "icon": "icons/sommark.png",
   "dependencies": {
-    "sommark": "^2.0.2"
+    "sommark": "^2.3.2"
   }
 }
