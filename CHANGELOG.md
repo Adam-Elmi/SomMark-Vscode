@@ -2,9 +2,15 @@
 
 All notable changes to the "sommark" extension will be documented in this file.
 
+## [2.0.2] - 2026-03-07
+
+### Fixes
+- Fixed: Inline Value Tokenization Fails When Starting or Containing Escape Character in SomMark parser
+
+
 ## [2.0.1] - 2026-02-04
 
-### Fixed
+### Fixes
 - **Activation Failure**: Resolved an issue where the extension failed to activate due to ESM module compatibility. Implemented dynamic imports for the `sommark` package.
 - **Dependency Alignment**: Downgraded `@types/vscode` to match the target engine version for better type safety and stability.
 
