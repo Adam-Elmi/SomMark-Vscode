@@ -3,7 +3,7 @@
   "displayName": "SomMark",
   "description": "Syntax highlighting and basic language support for SomMark, a minimal, extensible markup language for documentation.",
   "publisher": "AdamElmi",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
